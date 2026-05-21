@@ -1,0 +1,532 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Royal Spice — Luxury Dining Experience | Tejomay Restaurants</title>
+  <meta name="description" content="Royal Spice by Tejomay Restaurants — luxury fine dining with cinematic ambiance, curated menu, expert chefs, and premium reservations." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Ambient glow layers -->
+  <div class="ambient" aria-hidden="true">
+    <span class="glow glow--1"></span>
+    <span class="glow glow--2"></span>
+    <span class="glow glow--3"></span>
+  </div>
+
+  <!-- Premium Sticky Navbar -->
+  <header class="navbar" data-elevate>
+    <div class="nav__inner">
+      <a class="brand" href="#home" aria-label="Royal Spice home">
+        <span class="brand__mark" aria-hidden="true">
+          <!-- Inline “gold” monogram mark -->
+          <svg viewBox="0 0 64 64" role="img" aria-hidden="true">
+            <defs>
+              <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#FFD58A" />
+                <stop offset="1" stop-color="#C58A2E" />
+              </linearGradient>
+            </defs>
+            <path fill="url(#g)" d="M10 22c0-7 5-12 12-12h20c7 0 12 5 12 12 0 9-6 16-14 16H24c-8 0-14-7-14-16Z" opacity=".95"/>
+            <path fill="url(#g)" d="M20 38h24l-2.5 16H22.5L20 38Z" opacity=".55"/>
+            <path fill="#fff" opacity=".25" d="M24 18c0 5 4 9 9 9s9-4 9-9"/>
+          </svg>
+        </span>
+        <span class="brand__text">
+          <span class="brand__name">Royal Spice</span>
+          <span class="brand__sub">Tejomay Restaurants</span>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <button class="nav__toggle" type="button" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+
+        <ul class="nav__links" role="list">
+          <li><a href="#home" class="nav__link">Home</a></li>
+          <li><a href="#about" class="nav__link">About</a></li>
+          <li><a href="#menu" class="nav__link">Menu</a></li>
+          <li><a href="#chefs" class="nav__link">Chefs</a></li>
+          <li><a href="#gallery" class="nav__link">Gallery</a></li>
+          <li><a href="#reservations" class="nav__link">Reservations</a></li>
+          <li><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav__cta">
+        <a class="btn btn--gold btn--small" href="#reservations">
+          <span>Book a Table</span>
+          <i aria-hidden="true" class="btn__icon">↗</i>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero" aria-label="Royal Spice hero">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="hero__overlay" aria-hidden="true"></div>
+
+      <div class="container hero__content">
+        <div class="hero__kicker" data-reveal>
+          <span class="kicker__dot" aria-hidden="true"></span>
+          <span>Fine Dining • Warm Hospitality • Crafted Flavors</span>
+        </div>
+
+        <h1 class="hero__title" data-reveal>Royal Spice</h1>
+        <p class="hero__tag" data-reveal>Luxury Dining Experience</p>
+
+        <p class="hero__intro" data-reveal>
+          From slow-simmered classics to signature modern Indian cuisine, Royal Spice invites you into a cinematic glow of
+          warm light, impeccable service, and unforgettable taste.
+        </p>
+
+        <div class="hero__actions" data-reveal>
+          <a class="btn btn--gold" href="#reservations">Book a Table</a>
+          <a class="btn btn--ghost" href="#menu">Explore Menu</a>
+        </div>
+
+        <div class="hero__highlights" data-reveal>
+          <div class="chip">
+            <span class="chip__icon" aria-hidden="true">✦</span>
+            <span>Curated Menu</span>
+          </div>
+          <div class="chip">
+            <span class="chip__icon" aria-hidden="true">⟡</span>
+            <span>Chef-led Excellence</span>
+          </div>
+          <div class="chip">
+            <span class="chip__icon" aria-hidden="true">⌁</span>
+            <span>Private Dining Available</span>
+          </div>
+        </div>
+      </div>
+
+      <a class="scrollhint" href="#about" aria-label="Scroll to about">
+        <span>Scroll</span>
+        <i aria-hidden="true"></i>
+      </a>
+    </section>
+
+    <!-- ABOUT (Split) -->
+    <section id="about" class="section section--about">
+      <div class="container">
+        <div class="section__head" data-reveal>
+          <p class="eyebrow">About Royal Spice</p>
+          <h2 class="h2">A warm glow. A refined table. A story worth savoring.</h2>
+        </div>
+
+        <div class="aboutGrid">
+          <div class="aboutGrid__media" data-reveal>
+            <div class="mediaCard">
+              <div class="mediaCard__image" role="img" aria-label="Royal Spice interior" data-parallax></div>
+              <div class="mediaCard__frame" aria-hidden="true"></div>
+              <div class="mediaCard__badge">
+                <span class="badge__label">Since</span>
+                <span class="badge__value">2012</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="aboutGrid__content" data-reveal>
+            <div class="richText">
+              <p>
+                Tejomay Restaurants brings together a tradition of hospitality and a modern fine-dining sensibility.
+                At Royal Spice, every dish is composed like a scene—layered aromas, balanced spice, and a presentation
+                that feels effortlessly premium.
+              </p>
+              <p>
+                Our team focuses on detail: marination times, flame-kissed finishes, and sauces crafted for depth.
+                The result is cuisine that feels intimate, cinematic, and genuinely human.
+              </p>
+            </div>
+
+            <div class="signature">
+              <div class="signature__left">
+                <h3 class="h3">Chef’s Signature</h3>
+                <p>
+                  Slow-simmered gravies, charcoal-baked starters, and dessert finales designed for the last lingering bite.
+                </p>
+              </div>
+              <div class="signature__right">
+                <div class="sigCard">
+                  <div class="sigCard__line"></div>
+                  <div class="sigCard__name">Chef A. Riyaz</div>
+                  <div class="sigCard__role">Executive Chef</div>
+                  <div class="sigCard__mark" aria-hidden="true">✺</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="aboutStats" aria-label="Restaurant highlights" data-reveal>
+              <div class="stat"><div class="stat__value">120+</div><div class="stat__label">Seasonal Dishes</div></div>
+              <div class="stat"><div class="stat__value">4.9</div><div class="stat__label">Guest Rating</div></div>
+              <div class="stat"><div class="stat__value">5</div><div class="stat__label">Star Chef Team</div></div>
+            </div>
+
+            <a class="btn btn--soft" href="#menu">Discover Tonight’s Specials</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENU -->
+    <section id="menu" class="section section--menu">
+      <div class="container">
+        <div class="section__head" data-reveal>
+          <p class="eyebrow">Premium Menu</p>
+          <h2 class="h2">Handcrafted favorites, plated with intention.</h2>
+          <p class="section__sub">Luxury classics with modern finesse. Select a dish to add it to your order.</p>
+        </div>
+
+        <div class="menuToolbar" data-reveal>
+          <div class="search">
+            <label class="search__label" for="dishSearch">Search dishes</label>
+            <input id="dishSearch" type="text" placeholder="e.g., butter, biryani, pasta" autocomplete="off" />
+          </div>
+          <div class="orderSummary" aria-live="polite">
+            <span class="orderSummary__title">Your Order</span>
+            <span class="orderSummary__count" id="orderCount">0 items</span>
+          </div>
+        </div>
+
+        <div class="menuGrid" id="menuGrid" data-reveal>
+          <!-- Cards injected by JS -->
+        </div>
+
+        <div class="menuFooter" data-reveal>
+          <div class="menuFooter__note">
+            <span class="noteDot" aria-hidden="true"></span>
+            <span>All prices in Indian Rupees (₹). Taxes extra as applicable.</span>
+          </div>
+          <button class="btn btn--gold" type="button" id="checkoutBtn">
+            Proceed to Checkout
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- CHEFS -->
+    <section id="chefs" class="section section--chefs">
+      <div class="container">
+        <div class="section__head section__head--center" data-reveal>
+          <p class="eyebrow">Chefs</p>
+          <h2 class="h2">Award-winning expertise, warm craftsmanship.</h2>
+        </div>
+
+        <div class="chefGrid">
+          <div class="chefCard" data-reveal>
+            <div class="chefCard__media" role="img" aria-label="Executive Chef portrait" data-parallax>
+              <div class="chefCard__glint" aria-hidden="true"></div>
+            </div>
+            <div class="chefCard__body">
+              <h3 class="h3">Chef A. Riyaz</h3>
+              <p class="muted">Executive Chef • Signature spice layering • Charcoal finishing.</p>
+
+              <div class="awards">
+                <div class="award"><span class="award__icon" aria-hidden="true">🏆</span><span>Best North Indian Cuisine</span></div>
+                <div class="award"><span class="award__icon" aria-hidden="true">✦</span><span>Chef Excellence Award</span></div>
+                <div class="award"><span class="award__icon" aria-hidden="true">⟡</span><span>Top 10 Fine Dining Picks</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="chefCard chefCard--alt" data-reveal>
+            <div class="chefCard__body chefCard__body--tight">
+              <h3 class="h3">Team of Specialists</h3>
+              <p class="muted">
+                Each station is led by a chef with a focus—tandoor, biryani craft, sauce refinement, and dessert artistry.
+                Together, we keep the kitchen rhythm precise and calm.
+              </p>
+
+              <div class="chefList" role="list">
+                <div class="chefList__item">
+                  <span class="chefList__num">01</span>
+                  <div><strong>Marination Lab</strong><div class="muted">Balanced tenderness & depth</div></div>
+                </div>
+                <div class="chefList__item">
+                  <span class="chefList__num">02</span>
+                  <div><strong>Tandoor Flame Craft</strong><div class="muted">Charcoal kiss & controlled heat</div></div>
+                </div>
+                <div class="chefList__item">
+                  <span class="chefList__num">03</span>
+                  <div><strong>Sauce Atelier</strong><div class="muted">Cream, spice, and slow reduction</div></div>
+                </div>
+                <div class="chefList__item">
+                  <span class="chefList__num">04</span>
+                  <div><strong>Dessert Finale</strong><div class="muted">Warm centers & elegant finishing</div></div>
+                </div>
+              </div>
+
+              <a class="btn btn--soft" href="#reservations">Reserve with Chef’s Table</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SPECIAL OFFERS -->
+    <section class="section section--offers" aria-label="Special offers">
+      <div class="container">
+        <div class="section__head" data-reveal>
+          <p class="eyebrow">Special Offers</p>
+          <h2 class="h2">Limited-time moments, warmly priced.</h2>
+        </div>
+
+        <div class="offerGrid">
+          <article class="offer" data-reveal>
+            <div class="offer__bg" aria-hidden="true"></div>
+            <div class="offer__content">
+              <p class="offer__title">Weekend Special</p>
+              <h3 class="offer__big">30% OFF</h3>
+              <p class="offer__sub">Fridays to Sundays • Select signature mains</p>
+              <a class="offer__link" href="#menu">View eligible dishes →</a>
+            </div>
+          </article>
+
+          <article class="offer offer--2" data-reveal>
+            <div class="offer__bg" aria-hidden="true"></div>
+            <div class="offer__content">
+              <p class="offer__title">Free Dessert</p>
+              <h3 class="offer__big">On orders above ₹2000</h3>
+              <p class="offer__sub">Choose from seasonal chef’s selection</p>
+              <a class="offer__link" href="#reservations">Add it to your booking →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery" class="section section--gallery">
+      <div class="container">
+        <div class="section__head section__head--center" data-reveal>
+          <p class="eyebrow">Gallery</p>
+          <h2 class="h2">Cinematic moments, plated beautifully.</h2>
+        </div>
+
+        <div class="masonry" id="masonry" data-reveal>
+          <!-- Images injected by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="section section--testimonials" aria-label="Customer testimonials">
+      <div class="container">
+        <div class="section__head" data-reveal>
+          <p class="eyebrow">Testimonials</p>
+          <h2 class="h2">Guests describe it best.</h2>
+          <p class="section__sub">Real reviews, warm sentiments, and thoughtful dining stories.</p>
+        </div>
+
+        <div class="testimonialGrid" id="testimonialGrid" data-reveal>
+          <!-- Injected by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- RESERVATIONS -->
+    <section id="reservations" class="section section--reservations">
+      <div class="container">
+        <div class="section__head section__head--center" data-reveal>
+          <p class="eyebrow">Reservations</p>
+          <h2 class="h2">Book your evening with confidence.</h2>
+        </div>
+
+        <div class="reserveWrap" data-reveal>
+          <div class="reserveMedia" aria-hidden="true" data-parallax></div>
+          <div class="reserveCard">
+            <div class="reserveCard__top">
+              <h3 class="h3">Table Reservation</h3>
+              <p class="muted">We’ll confirm your request instantly. Prefer a calm corner? Add a note.</p>
+            </div>
+
+            <form id="reservationForm" class="form" autocomplete="on">
+              <div class="formGrid">
+                <div class="field">
+                  <label for="name">Name</label>
+                  <input id="name" name="name" type="text" placeholder="Your full name" required />
+                </div>
+
+                <div class="field">
+                  <label for="email">Email</label>
+                  <input id="email" name="email" type="email" placeholder="you@example.com" required />
+                </div>
+
+                <div class="field">
+                  <label for="phone">Phone</label>
+                  <input id="phone" name="phone" type="tel" placeholder="+91 …" required />
+                </div>
+
+                <div class="field">
+                  <label for="date">Date</label>
+                  <input id="date" name="date" type="date" required />
+                </div>
+
+                <div class="field">
+                  <label for="time">Time</label>
+                  <input id="time" name="time" type="time" required />
+                </div>
+
+                <div class="field">
+                  <label for="guests">Guests</label>
+                  <select id="guests" name="guests" required>
+                    <option value="1">1 guest</option>
+                    <option value="2">2 guests</option>
+                    <option value="3">3 guests</option>
+                    <option value="4">4 guests</option>
+                    <option value="5">5 guests</option>
+                    <option value="6">6 guests</option>
+                    <option value="7">7 guests</option>
+                    <option value="8">8 guests</option>
+                  </select>
+                </div>
+
+                <div class="field field--full">
+                  <label for="request">Special Request</label>
+                  <textarea id="request" name="request" rows="3" placeholder="Allergies, seating preference, celebration…"></textarea>
+                </div>
+              </div>
+
+              <div class="formActions">
+                <button class="btn btn--gold" type="submit">
+                  Confirm Booking
+                </button>
+                <p class="formHint" id="formHint" aria-live="polite"></p>
+              </div>
+            </form>
+
+            <div class="reserveBottom" aria-label="Reservation note">
+              <div class="note">
+                <span class="note__icon" aria-hidden="true">✓</span>
+                <span>Average confirmation time: under 1 minute.</span>
+              </div>
+              <div class="note">
+                <span class="note__icon" aria-hidden="true">⚡</span>
+                <span>Need help? Call us anytime.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section--contact">
+      <div class="container">
+        <div class="section__head" data-reveal>
+          <p class="eyebrow">Contact</p>
+          <h2 class="h2">We’re ready to welcome you.</h2>
+        </div>
+
+        <div class="contactGrid">
+          <div class="contactCard" data-reveal>
+            <h3 class="h3">Royal Spice</h3>
+            <p class="muted">Fine dining • Warm hospitality • Crafted flavors</p>
+
+            <div class="contactInfo">
+              <div class="infoRow"><span class="infoIcon" aria-hidden="true">📍</span><span>12 Goldline Avenue, City Center, India</span></div>
+              <div class="infoRow"><span class="infoIcon" aria-hidden="true">☎</span><a href="tel:+911234567890">+91 12345 67890</a></div>
+              <div class="infoRow"><span class="infoIcon" aria-hidden="true">✉</span><a href="mailto:reservations@royalspice.com">reservations@royalspice.com</a></div>
+              <div class="infoRow"><span class="infoIcon" aria-hidden="true">⏰</span><span>Mon–Sun: 12:00 PM — 11:30 PM</span></div>
+            </div>
+
+            <div class="socialRow" aria-label="Social media">
+              <a class="social" href="#" aria-label="Instagram">
+                <span aria-hidden="true">⌁</span>
+              </a>
+              <a class="social" href="#" aria-label="Facebook">
+                <span aria-hidden="true">◍</span>
+              </a>
+              <a class="social" href="#" aria-label="Twitter">
+                <span aria-hidden="true">⟡</span>
+              </a>
+              <a class="social" href="#" aria-label="YouTube">
+                <span aria-hidden="true">▶</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="mapWrap" data-reveal>
+            <div class="mapCard">
+              <iframe
+                title="Royal Spice location"
+                src="https://www.google.com/maps?q=India&output=embed"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer" aria-label="Footer">
+      <div class="container footer__inner">
+        <div class="footerBrand" data-reveal>
+          <div class="footerBrand__top">
+            <span class="footerMark" aria-hidden="true">✦</span>
+            <div>
+              <div class="footerBrand__name">Royal Spice</div>
+              <div class="footerBrand__sub">Tejomay Restaurants</div>
+            </div>
+          </div>
+          <p class="muted">Luxury fine-dining with a warm, cinematic glow—crafted for unforgettable evenings.</p>
+        </div>
+
+        <div class="footerCols" data-reveal>
+          <div class="footerCol">
+            <div class="footerCol__title">Quick Links</div>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#chefs">Chefs</a>
+          </div>
+          <div class="footerCol">
+            <div class="footerCol__title">Visit</div>
+            <a href="#gallery">Gallery</a>
+            <a href="#reservations">Reservations</a>
+            <a href="#contact">Contact</a>
+            <a href="#">Gift Cards</a>
+          </div>
+          <div class="footerCol footerCol--wide">
+            <div class="footerCol__title">Newsletter</div>
+            <p class="muted">Get weekend specials and chef’s picks—no noise, just the good stuff.</p>
+            <form id="newsletterForm" class="newsForm">
+              <input type="email" name="newsletterEmail" placeholder="Email address" required />
+              <button class="btn btn--gold btn--small" type="submit">Subscribe</button>
+            </form>
+            <div class="fineprint">By subscribing, you agree to receive emails from Royal Spice.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footerBottom" data-reveal>
+        <div class="container footerBottom__inner">
+          <span>© <span id="year"></span> Royal Spice • Tejomay Restaurants. All rights reserved.</span>
+          <span class="footerBottom__right">Designed for a premium dining experience.</span>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <!-- Toast -->
+  <div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+
+  <!-- Scripts -->
+  <script src="app.js" defer></script>
+</body>
+</html>
+
