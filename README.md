@@ -76,7 +76,7 @@ Key sections (menu grid, testimonials, reservations, navbar) automatically adapt
 - **Admin dashboard** for menu management, reservations, and analytics
 
 ## Author
-Developed by **Aryan Pote**
+Developed by **Mayank Thool**
 
 ## License
 Educational and portfolio use.
